@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Horizontally centers content */
+  align-items: center; /* Vertically centers content */
+  height: 100vh; /* Full viewport height */
+}
+
+.Meme {
+  text-align: center;
+  padding: 10px;
+  /* border: 5px solid yellow;  <-- This line is removed to get rid of the yellow border */
+}
+
+.Meme img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto; /* Ensures image is centered */
+}
+
+h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 3rem;
+  color: white;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+p {
+  font-family: "Libre Baskerville", serif;
+  color: white;
+  margin: 0;
+}
+
